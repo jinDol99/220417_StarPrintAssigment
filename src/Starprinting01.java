@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Starprinting01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("입력: ");
+		System.out.println("옆으로 누운 삼각형의 높이입력: ");
 		int a = sc.nextInt();
 		
 		for (int i = 1; i <=(a*2-1); i++) {
@@ -14,9 +14,8 @@ public class Starprinting01 {
 			else {
 				for (int j = ((a*2)-i); j > 0; j--)
 					System.out.printf("*");
-			}	
+			}
 			System.out.printf("%n");
 		}
-		
 	}
 }
