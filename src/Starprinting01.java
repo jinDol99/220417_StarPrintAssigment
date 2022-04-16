@@ -29,7 +29,7 @@ public class Starprinting01 {
 																	// 수식을 for문의 j 초기값으로 입력함.
 																	// 이 반복문으로 삼각형의 줄어드는 구간 속 *을 출력할 수 있음.
 
-			System.out.printf("%n");								// 상위 for 반복이 한번 끝나면 줄바꿈을 시행함.
+			System.out.printf("%n");								// 하위 for 반복이 한번 끝나면 줄바꿈을 시행함.
 		}
 	}
 }
